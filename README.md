@@ -12,15 +12,15 @@
 
 ## Schedule
 
-- _**09:00 - 10:00**_ [Introduction to Nextflow](README.md#-nextflow-a-tutorial-through-examples-)
+- _**14:00 - 15:00**_ [Introduction to Nextflow](README.md#1-introduction)
 
-- _**10:00 - 11:00**_ [Parameters, Channels and Processes](README.md#3-generalising-and-extending)
+- _**15:00 - 15:30**_ [Parameters, Channels and Processes](README.md#3-generalising-and-extending)
 
-- _**11:30 - 12:30**_ [Docker/Singularity](README.md#4-nextflow--docker--singularity-containers)
+- _**15:30 - 16:00**_ [Docker/Singularity](README.md#4-nextflow--docker--singularity-containers)
 
-- _**11:30 - 12:30**_ [Executors](README.md#5-executors)
+- _**16:00 - 16:30**_ [Executors](README.md#5-executors)
 
-- _**11:30 - 12:30**_ [Channel Operations](README.md#6-channel-operations)
+- _**16:30 - 17:00**_ [Channel Operations](README.md#6-channel-operations)
 
 ## Learning Objectives
 
@@ -33,7 +33,7 @@
 - Join Nextflow tools into a workflow.
 - Run Nextflow workflows on local, HPC and cloud systems.
 
-Nextflow:  
+## Learning Material
 
 - The **slides** of the lecture are available [**here**](files/slides/nextflow_tutorial.pdf).
 - The **Nextflow** documentation can be found [*here*](https://www.nextflow.io/docs/latest/index.html).
