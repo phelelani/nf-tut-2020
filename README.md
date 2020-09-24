@@ -1,4 +1,4 @@
-<H1 align="center"> Introduction to Automation and Nextflow: A Tutorial Through Examples </H1>
+<H1 align="center"> Introduction to Automation and Nextflow:<br/>A Tutorial Through Examples </H1>
 
 ### Instructor
 - [Phelelani Mpangase](https://github.com/phelelani) |  [email](mailto:Phelelani.Mpangase@wits.ac.za)
