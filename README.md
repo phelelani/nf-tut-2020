@@ -83,7 +83,7 @@ cd $HOME/nf_tut
 
 Then, we download the data we will be using for the exercises:
 ```bash
-wget https://github.com/fpsom/CODATA-RDA-Advanced-Bioinformatics-2019/raw/master/files/data/tutorial.zip
+wget https://github.com/phelelani/nf-tut-2020/raw/master/files/data/tutorial.zip
 unzip tutorial.zip
 ```
 Tyep `ls -l` and hit `<ENTER>` to view the contents of your directory. Your `nf_tut` directory will now contain Nextflow scripts (ending with `.nf`) and a `data` folder that we will use in this tutorial.
