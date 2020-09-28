@@ -77,8 +77,8 @@ Key Nextflow concepts:
 ### 1.2. Nexflow Script
 First, lets set up a directory where we will do all our Nextflow exercises:
 ```bash
-mkdir $HOME/day4
-cd $HOME/day4
+mkdir $HOME/nf_tut
+cd $HOME/nf_tut
 ```
 
 Then, we download the data we will be using for the exercises:
@@ -86,9 +86,9 @@ Then, we download the data we will be using for the exercises:
 wget https://github.com/fpsom/CODATA-RDA-Advanced-Bioinformatics-2019/raw/master/files/data/tutorial.zip
 unzip tutorial.zip
 ```
-Tyep `ls -l` and hit `<ENTER>` to view the contents of your directory. Your `day4` directory will now contain Nextflow scripts (ending with `.nf`) and a `data` folder that we will use in this tutorial.
+Tyep `ls -l` and hit `<ENTER>` to view the contents of your directory. Your `nf_tut` directory will now contain Nextflow scripts (ending with `.nf`) and a `data` folder that we will use in this tutorial.
 ```bash
-day4
+nf_tut
 |--cleandups.nf
 |--data
 |  |--11.bim .. 14.bim
@@ -193,7 +193,7 @@ Done!
 ```
 **NB:** Nextflow creates a `work` directory, and inside of that are the working directories of each process -- in the example above you can see that the `getIDs` process was launched in a directory with a prefix `aa0380`, inside the directory `b3`. The directory structure is looks like:
 ```bash
-day4
+nf_tut
 |--cleandups.nf
 |--data
 |  |--11.bim .. 14.bim
@@ -213,16 +213,16 @@ day4
 |--work
 |  |--90
 |  |  |--cebf3649d883f88381e32b4912b560
-|  |  |  |--ids -> /Users/phele/day4/work/b3/aa0380f2a1bca447259b7ffd390083/ids
+|  |  |  |--ids -> /Users/phele/nf_tut/work/b3/aa0380f2a1bca447259b7ffd390083/ids
 |  |  |  |--ignore
 |  |--9c
 |  |  |--e0cb7d8d26682d7d4a1c44392f2bb3
-|  |  |  |--11.bim -> /Users/phele/day4/data/11.bim
+|  |  |  |--11.bim -> /Users/phele/nf_tut/data/11.bim
 |  |  |  |--clean.bim
-|  |  |  |--dups -> /Users/phele/day4/work/90/cebf3649d883f88381e32b4912b560/dups
+|  |  |  |--dups -> /Users/phele/nf_tut/work/90/cebf3649d883f88381e32b4912b560/dups
 |  |--b3
 |  |  |--aa0380f2a1bca447259b7ffd390083
-|  |  |  |--11.bim -> /Users/phele/day4/data/11.bim
+|  |  |  |--11.bim -> /Users/phele/nf_tut/data/11.bim
 |  |  |  |--ids
 ```
 The names of the working directory are randomly chosen so if you run it, you will get different names. Also, each time you run a process ever, it will get a unique working directory. There is  no danger of name clashes Instead of naming the file you get from a channel you can also:
