@@ -12,7 +12,7 @@
 
 ## Schedule
 
-- _**14:00 - 15:00**_ [Introduction to Nextflow](README.md#1-introduction)
+- _**14:30 - 15:00**_ [Introduction to Nextflow](README.md#1-introduction)
 
 - _**15:00 - 15:30**_ [Parameters, Channels and Processes](README.md#3-generalising-and-extending)
 
